@@ -12,12 +12,9 @@ ol.insertBefore(a,b);
 //----------------4.2-----------------
 let h2Doc = document.querySelectorAll('h2'); //on choppe tous les h2 du doc 
 
-
 let tempContent = h2Doc[1].textContent; // on met le contenu texte du h2 index 1 (="third section") et on stocke ça dans une variable
 
-
 h2Doc[1].textContent = h2Doc[2].textContent; //on echange les titre h2 index 1 (third title) avec le h2 index 1 (second title)
-
 
 h2Doc[2].textContent = tempContent; //on injecte notre tempContent à notre h2 index 2
 
